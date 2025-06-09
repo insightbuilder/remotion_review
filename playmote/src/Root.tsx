@@ -10,6 +10,8 @@ import { BasicTransition } from "./SlideTransition";
 import { Deck1 } from "./Deck";
 import { FontCompTitan } from "./TitanFont";
 import { CompBangFont } from "./BangersFont";
+import { NoiseComp, NoiseDots } from "./NoiseDots";
+import { AnimationMath } from "./Animath";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -78,6 +80,22 @@ export const RemotionRoot: React.FC = () => {
         width={1280}
         height={720}
       />
+      <Composition
+        id="NoiseDots"
+        component={NoiseDots}
+        durationInFrames={60}
+        fps={30}
+        width={1280}
+        height={720}
+        />
+      <Composition
+        id="Springy"
+        component={AnimationMath}
+        durationInFrames={60}
+        fps={30}
+        width={1280}
+        height={720}
+        />
     </>
   );
 };
