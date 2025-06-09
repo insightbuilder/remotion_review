@@ -1,6 +1,7 @@
 class Person {
 	var name: String
 	var age: Int
+    var location: String
 
 	init(name: String, age: Int) {       
         self.name = name
@@ -8,8 +9,8 @@ class Person {
     }
 }
 
-let user = Person(name: "Lorem", age: 26)
+let user = Person(name: "Ipsum", age: 26)
 
 print(user.location)
-
+//      ^?
 
