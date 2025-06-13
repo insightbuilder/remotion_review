@@ -12,6 +12,7 @@ import { InnerLine, Pre } from "codehike/code"
 import { tokenTransitions, useTokenTransitions } from "./token-transitions"
 
 import Content from "./content.md"
+
 const Schema = Block.extend({
   steps: z.array(
     Block.extend({

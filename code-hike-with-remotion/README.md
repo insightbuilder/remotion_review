@@ -1,3 +1,11 @@
+# What Next
+
+The below 3 projects use token-transition extensively and in certain places uses mark annotation too. 
+
+I have seen how the code-hike is working now. Although coding the annotation handlers for different annotations is still take more time. 
+
+For working with remotion, the knowledge I have till now will be sufficient. Question is how I am going to leverage Code Hike and Remotion?
+
 ## Code Hike + Remotion
 
 Blog post: [From Markdown to Video](https://codehike.org/blog/remotion)
