@@ -1,0 +1,262 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 1 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0 | CANN = 0",
+	"model": {
+		"type": "medium",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1024,
+			"head": 16,
+			"layer": 24
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/run/media/uberdev/ddrv/gitFolders/remotion_review/remotion_recorder/whisper.cpp/ggml-medium.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 0
+			},
+			"text": "",
+			"tokens": [
+				{
+					"text": "[_BEG_]",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,000"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 0
+					},
+					"id": 50363,
+					"p": 0.774438,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,770"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 770
+			},
+			"text": " [",
+			"tokens": [
+				{
+					"text": " [",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,770"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 770
+					},
+					"id": 685,
+					"p": 0.323547,
+					"t_dtw": 170
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,770",
+				"to": "00:00:02,300"
+			},
+			"offsets": {
+				"from": 770,
+				"to": 2300
+			},
+			"text": "BL",
+			"tokens": [
+				{
+					"text": "BL",
+					"timestamps": {
+						"from": "00:00:00,770",
+						"to": "00:00:02,300"
+					},
+					"offsets": {
+						"from": 770,
+						"to": 2300
+					},
+					"id": 9148,
+					"p": 0.116955,
+					"t_dtw": 528
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,300",
+				"to": "00:00:04,600"
+			},
+			"offsets": {
+				"from": 2300,
+				"to": 4600
+			},
+			"text": "ANK",
+			"tokens": [
+				{
+					"text": "ANK",
+					"timestamps": {
+						"from": "00:00:02,300",
+						"to": "00:00:04,600"
+					},
+					"offsets": {
+						"from": 2300,
+						"to": 4600
+					},
+					"id": 15154,
+					"p": 0.999849,
+					"t_dtw": 528
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,600",
+				"to": "00:00:05,360"
+			},
+			"offsets": {
+				"from": 4600,
+				"to": 5360
+			},
+			"text": "_",
+			"tokens": [
+				{
+					"text": "_",
+					"timestamps": {
+						"from": "00:00:04,600",
+						"to": "00:00:05,360"
+					},
+					"offsets": {
+						"from": 4600,
+						"to": 5360
+					},
+					"id": 62,
+					"p": 0.993834,
+					"t_dtw": 528
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,360",
+				"to": "00:00:06,830"
+			},
+			"offsets": {
+				"from": 5360,
+				"to": 6830
+			},
+			"text": "AUD",
+			"tokens": [
+				{
+					"text": "AUD",
+					"timestamps": {
+						"from": "00:00:05,360",
+						"to": "00:00:06,830"
+					},
+					"offsets": {
+						"from": 5360,
+						"to": 6830
+					},
+					"id": 48877,
+					"p": 0.999478,
+					"t_dtw": 528
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,830",
+				"to": "00:00:06,830"
+			},
+			"offsets": {
+				"from": 6830,
+				"to": 6830
+			},
+			"text": "IO",
+			"tokens": [
+				{
+					"text": "IO",
+					"timestamps": {
+						"from": "00:00:06,830",
+						"to": "00:00:06,830"
+					},
+					"offsets": {
+						"from": 6830,
+						"to": 6830
+					},
+					"id": 9399,
+					"p": 0.999943,
+					"t_dtw": 528
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,830",
+				"to": "00:00:10,000"
+			},
+			"offsets": {
+				"from": 6830,
+				"to": 10000
+			},
+			"text": "]",
+			"tokens": [
+				{
+					"text": "]",
+					"timestamps": {
+						"from": "00:00:06,830",
+						"to": "00:00:06,830"
+					},
+					"offsets": {
+						"from": 6830,
+						"to": 6830
+					},
+					"id": 60,
+					"p": 0.998946,
+					"t_dtw": 528
+				},
+				{
+					"text": "[_TT_500]",
+					"timestamps": {
+						"from": "00:00:10,000",
+						"to": "00:00:10,000"
+					},
+					"offsets": {
+						"from": 10000,
+						"to": 10000
+					},
+					"id": 50863,
+					"p": 0.0841583,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}
