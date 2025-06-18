@@ -56,3 +56,11 @@ input {
 input:focus {
     border-color: var(--focused-border-color);
 }
+
+.shape {
+    fill: gold;
+}
+
+.layer {
+    fill: gold;
+}

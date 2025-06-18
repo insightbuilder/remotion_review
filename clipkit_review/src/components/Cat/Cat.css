@@ -1,0 +1,70 @@
+@keyframes moveEyes {
+    20% {
+        transform: translate(-18px, -20px);
+    }
+
+    40% {
+        transform: translate(0, 0);
+    }
+
+    70% {
+        transform: translate(18px, -20px);
+    }
+}
+
+.inner-eye-group {
+    animation: moveEyes 15s;
+}
+
+@keyframes leftWhiskers {
+    20% {
+        transform: rotate(5deg);
+    }
+    60% {
+        transform: rotate(-5deg);
+    }
+}
+
+.left-whiskers {
+    animation: leftWhiskers 3s infinite;
+    transform-origin: 325px 350px;
+}
+
+
+@keyframes rightWhiskers {
+    20% {
+        transform: rotate(-2deg);
+    }
+    60% {
+        transform: rotate(7deg);
+    }
+}
+
+.right-whiskers {
+    animation: rightWhiskers 3s infinite;
+    transform-origin: 350px 350px;
+}
+
+@keyframes move {
+   30% {
+    transform: rotateY(25deg);
+   } 
+
+   60% {
+    transform: rotateX(35deg);
+   }
+
+   100% {
+    transform: rotateX(0deg);
+    transform: rotateY(0deg);
+   }
+    
+}
+
+.cat {
+    animation: move 8s infinite;
+}
+
+.svg-container {
+    perspective: 500px;
+}

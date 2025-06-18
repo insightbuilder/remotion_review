@@ -9,6 +9,7 @@ import {
   VIDEO_WIDTH,
 } from "../types/constants";
 import { NextLogo } from "./MyComp/NextLogo";
+import { SvgIntro1 } from "./MyComp/SvgIntro1";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -32,6 +33,14 @@ export const RemotionRoot: React.FC = () => {
         defaultProps={{
           outProgress: 0,
         }}
+      />
+      <Composition
+        id="SvgIntro1"
+        component={SvgIntro1}
+        durationInFrames={60}
+        fps={30}
+        width={640}
+        height={480}
       />
     </>
   );

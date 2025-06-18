@@ -16,6 +16,7 @@ import { z } from "zod";
 import { RenderControls } from "../components/RenderControls";
 import { Tips } from "../components/Tips/Tips";
 import { Spacing } from "../components/Spacing";
+import MySvgIntro1 from "../components/MySvgIntro1/MySvgIntro1";
 
 const container: React.CSSProperties = {
   maxWidth: 768,
@@ -71,6 +72,9 @@ const Home: NextPage = () => {
         <Spacing></Spacing>
         <Spacing></Spacing>
         <Tips></Tips>
+      </div>
+      <div>
+        <MySvgIntro1 />
       </div>
     </div>
   );
