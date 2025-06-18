@@ -12,6 +12,8 @@ import { FontCompTitan } from "./TitanFont";
 import { CompBangFont } from "./BangersFont";
 import { NoiseComp, NoiseDots } from "./NoiseDots";
 import { AnimationMath } from "./Animath";
+import { ArrowFlow } from "./Arrow";
+import { Grid } from "./Grid";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -93,6 +95,22 @@ export const RemotionRoot: React.FC = () => {
         component={AnimationMath}
         durationInFrames={60}
         fps={30}
+        width={1280}
+        height={720}
+        />
+      <Composition
+        id="Arrow"
+        component={ArrowFlow}
+        durationInFrames={60}
+        fps={30}
+        width={1280}
+        height={720}
+        />
+      <Composition
+        id="Grid"
+        component={Grid}
+        durationInFrames={30}
+        fps={10}
         width={1280}
         height={720}
         />
